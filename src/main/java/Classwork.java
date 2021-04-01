@@ -8,6 +8,7 @@ public class Classwork {
         };
         for (AbstractBowl bowl : bowls) {
             am = 14;
+
             bowl.put(am);
             c.eat(bowl);
             c1.eat(bowl);

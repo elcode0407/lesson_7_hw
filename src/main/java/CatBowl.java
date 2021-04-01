@@ -1,4 +1,4 @@
-public class CatBowl extends AbstractBowl{
+public class CatBowl extends AbstractBowl {
 
     @Override
     public void put(int amount) {
@@ -8,7 +8,8 @@ public class CatBowl extends AbstractBowl{
     }
 
     @Override
-    public void decrease(int amount)  {
+    public void decrease(int amount) {
+
         super.decrease(amount);
     }
 
